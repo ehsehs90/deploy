@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import sys
-import urlparse
 from decouple import config
 from urllib.parse import urlparse
 
