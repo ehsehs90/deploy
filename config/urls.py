@@ -18,6 +18,8 @@ from django.urls import path, include
 from restaurant import views as restaurant_views
 from django.conf import settings
 from django.conf.urls.static import static
+
+
 urlpatterns = [
     path('', restaurant_views.index, name='index'),       
     path('restaurant/',include('restaurant.urls')),
