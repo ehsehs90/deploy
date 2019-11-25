@@ -9,6 +9,7 @@ from accounts.models import Telegram
 from django.views.decorators.http import require_POST
 from django.http import JsonResponse
 from django.db.models import Q
+from decouple import config
 
 api_url = 'https://api.telegram.org'
 token = config('TELEGRAM_BOT_TOKEN') #프로젝트내에 .env에서 정보를 가져옴
