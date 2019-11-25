@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #     }
 # }
 # SILENCED_SYSTEM_CHECKS = [
-#     'django_mysql.W002',
+#     'django_mysql.W002',  
 # ]
 # DATABASES = {
 #     'default': {     
@@ -177,7 +177,7 @@ django_heroku.settings(locals())
 ############ to use Mysql URL 
 
 # import sys
-# import urlparse import urllib.parse 
+import urlparse import urllib.parse 
 urlparse.uses_netloc.append('mysql')
 
 try:
