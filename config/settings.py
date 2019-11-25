@@ -175,8 +175,8 @@ django_heroku.settings(locals())
 
 ############ to use Mysql URL 
 
-import sys
-import urlparse import urllib.parse 
+# import sys
+# import urlparse import urllib.parse 
 urlparse.uses_netloc.append('mysql')
 
 try:
