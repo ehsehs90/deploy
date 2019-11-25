@@ -204,5 +204,6 @@ try:
 
         if url.scheme == 'mysql':
             DATABASES['default']['ENGINE'] = 'django.db.backends.mysql'
+
 except Exception:
-    print 'Unexpected error:', sys.exc_info()
+    print('Unexpected error:', sys.exc_info())
