@@ -14,6 +14,7 @@ import os
 import sys
 import urlparse
 from decouple import config
+from urllib.parse import urlparse
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
